@@ -1,517 +1,517 @@
-API - css+                                      || PageExtension: ${0} added stylesheet(s) to ${1}, ${2}
-API - js+                                       || PageExtension: ${0} added javascript(s) to ${1}, ${2}
-Cmd - Click Me                                  || Hazme click
-Cmd - Link                                      || Link
-Cmd - Link Network                              || Network page: 
-Cmd - Link Player                               || Player page: 
-Cmd - Link Player JSON                          || Player json: 
-Cmd - Link Players                              || Players page: 
-Cmd - Link Register                             || Register page: 
-Cmd - Link Server                               || Server page: 
-CMD Arg - backup-file                           || Name of the backup file (case sensitive)
-CMD Arg - code                                  || Code used to finalize registration.
-CMD Arg - db type backup                        || Type of the database to backup. Current database is used if not specified.
-CMD Arg - db type clear                         || Type of the database to remove all data from.
-CMD Arg - db type hotswap                       || Type of the database to start using.
-CMD Arg - db type move from                     || Type of the database to move data from.
-CMD Arg - db type move to                       || Type of the database to move data to. Can not be same as previous.
-CMD Arg - db type restore                       || Type of the database to restore to. Current database is used if not specified.
-CMD Arg - feature                               || Name of the feature to disable: ${0}
-CMD Arg - player identifier                     || Name or UUID of a player
-CMD Arg - player identifier remove              || Identifier for a player that will be removed from current database.
-CMD Arg - server identifier                     || Name, ID or UUID of a server
-CMD Arg - subcommand                            || Use the command without subcommand to see help.
-CMD Arg - username                              || Username of another user. If not specified player linked user is used.
-CMD Arg Name - backup-file                      || backup-file
-CMD Arg Name - code                             || ${code}
-CMD Arg Name - export kind                      || export kind
-CMD Arg Name - feature                          || feature
-CMD Arg Name - import kind                      || import kind
-CMD Arg Name - name or uuid                     || name/uuid
-CMD Arg Name - server                           || server
-CMD Arg Name - subcommand                       || subcommand
-CMD Arg Name - username                         || username
-Cmd Confirm - accept                            || Accept
-Cmd Confirm - cancelled, no data change         || Cancelled. No data was changed.
-Cmd Confirm - cancelled, unregister             || Cancelled. '${0}' was not unregistered
-Cmd Confirm - clearing db                       || You are about to remove all Plan-data in ${0}
-Cmd Confirm - confirmation                      || Confirm: 
-Cmd Confirm - deny                              || Cancel
-Cmd Confirm - Expired                           || Confirmation expired, use the command again
-Cmd Confirm - Fail on accept                    || The accepted action errored upon execution: ${0}
-Cmd Confirm - Fail on deny                      || The denied action errored upon execution: ${0}
-Cmd Confirm - overwriting db                    || You are about to overwrite data in Plan ${0} with data in ${1}
-Cmd Confirm - remove player db                  || You are about to remove data of ${0} from ${1}
-Cmd Confirm - unregister                        || You are about to unregister '${0}' linked to ${1}
-Cmd db - creating backup                        || Creating a backup file '${0}.db' with contents of ${1}
-Cmd db - removal                                || Removing Plan-data from ${0}..
-Cmd db - removal player                         || Removing data of ${0} from ${1}..
-Cmd db - server uninstalled                     || §aIf the server is still installed, it will automatically set itself as installed in the database.
-Cmd db - write                                  || Writing to ${0}..
-Cmd Disable - Disabled                          || §aLos sistemas de Plan estan ahora deshabilitados. Puedes usar reload para recargar el plugin.
-Cmd FAIL - Accepts only these arguments         || Accepts following as ${0}: ${1}
-Cmd FAIL - Database not open                    || §cLa base de datos es ${0} - Por favor, prueba un poco más tarde.
-Cmd FAIL - Empty search string                  || The search string can not be empty
-Cmd FAIL - Invalid Username                     || §cEste usuario no tiene UUID.
-Cmd FAIL - No Feature                           || §e¡Define una característica para deshabilitarla! (currently supports ${0})
-Cmd FAIL - No Permission                        || §cNo tienes el permiso requerido.
-Cmd FAIL - No player                            || Player '${0}' was not found, they have no UUID.
-Cmd FAIL - No player register                   || Player '${0}' was not found in the database.
-Cmd FAIL - No server                            || Server '${0}' was not found from the database.
-Cmd FAIL - Require only one Argument            || §cArgumento único requerido ${1}
-Cmd FAIL - Requires Arguments                   || §cArgumentos requeridos (${0}) ${1}
-Cmd FAIL - see config                           || see '${0}' in config.yml
-Cmd FAIL - Unknown Username                     || §cEste usuario no ha sido visto en el servidor
-Cmd FAIL - Users not linked                     || User is not linked to your account and you don't have permission to remove other user's accounts.
-Cmd FAIL - WebUser does not exists              || §c¡Este usuario no existe!
-Cmd FAIL - WebUser exists                       || §c¡Este usuario ya existe!
-Cmd Footer - Help                               || §7Hover over command or arguments or use '/${0} ?' to learn more about them.
-Cmd Header - Analysis                           || > §2Resultados del análisis
-Cmd Header - Help                               || > §2/${0} Help
-Cmd Header - Info                               || > §2Análisis del jugador
-Cmd Header - Inspect                            || > §2Jugador: §f${0}
-Cmd Header - Network                            || > §2Página de red
-Cmd Header - Players                            || > §2Jugadores
-Cmd Header - Search                             || > §2${0} Resultados para §f${1}§2:
-Cmd Header - server list                        || id::name::uuid
-Cmd Header - Servers                            || > §2Servidores
-Cmd Header - web user list                      || username::linked to::permission level
-Cmd Header - Web Users                          || > §2${0} Usuarios web
-Cmd Info - Bungee Connection                    ||   §2Conectado al Proxy: §f${0}
-Cmd Info - Database                             ||   §2Base de datos actual: §f${0}
-Cmd Info - Reload Complete                      || §aRecarga completada
-Cmd Info - Reload Failed                        || §cUn error ocurrió intentando recargar el plugin. Se recomienda su reseteo.
-Cmd Info - Update                               ||   §2Actualización disponible: §f${0}
-Cmd Info - Version                              ||   §2Versión: §f${0}
-Cmd network - No network                        || Server is not connected to a network. The link redirects to server page.
-Cmd Notify - No Address                         || §eNo address was available - using localhost as fallback. Set up 'Alternative_IP' settings.
-Cmd Notify - No WebUser                         || Puede que no tengas un usuario web, usa /plan register <contraseña>
-Cmd Notify - WebUser register                   || Nuevo usuario registrado: '${0}' Nivel de permisos: ${1}
-Cmd Qinspect - Active Playtime                  ||   §2Active Playtime: §f${0}
-Cmd Qinspect - Activity Index                   ||   §2Índice de actividad: §f${0} | ${1}
-Cmd Qinspect - AFK Playtime                     ||   §2AFK Time: §f${0}
-Cmd Qinspect - Deaths                           ||   §2Muertes: §f${0}
-Cmd Qinspect - Geolocation                      ||   §2Logueado desde: §f${0}
-Cmd Qinspect - Last Seen                        ||   §2Última vez visto: §f${0}
-Cmd Qinspect - Longest Session                  ||   §2Sesión más larga: §f${0}
-Cmd Qinspect - Mob Kills                        ||   §2Mobs asesinados: §f${0}
-Cmd Qinspect - Player Kills                     ||   §2Jugadores asesinados: §f${0}
-Cmd Qinspect - Playtime                         ||   §2Tiempo de juego: §f${0}
-Cmd Qinspect - Registered                       ||   §2Registrado: §f${0}
-Cmd Qinspect - Times Kicked                     ||   §2Veces kickeado: §f${0}
-Cmd SUCCESS - Feature disabled                  || §aDeshabilitado '${0}' temporalmente hasta la próxima recarga del plugin.
-Cmd SUCCESS - WebUser register                  || §a¡Se ha añadido al nuevo usuario (${0}) exitosamente!
-Cmd unregister - unregistering                  || Unregistering '${0}'..
-Cmd WARN - Database not open                    || §eLa base de datos es ${0} - Esto puede durar más de lo esperado..
-Cmd Web - Permission Levels                     || >\§70: Acceso a todas las páginas\§71: Acceso '/players' y a todas las páginas de los jugadores\§72: Acceso a la pagina del jugador con el mismo nombre de usuario que el usuario web\§73+: Sin permisos
-Command Help - /plan db                         || Manage Plan database
-Command Help - /plan db backup                  || Backup data of a database to a file
-Command Help - /plan db clear                   || Remove ALL Plan data from a database
-Command Help - /plan db hotswap                 || Cambia la base de datos rápidamente
-Command Help - /plan db move                    || Mueve los datos entre base de datos
-Command Help - /plan db remove                  || Remove player's data from Current database
-Command Help - /plan db restore                 || Restore data from a file to a database
-Command Help - /plan db uninstalled             || Set a server as uninstalled in the database.
-Command Help - /plan disable                    || Disable the plugin or part of it
-Command Help - /plan export                     || Export html or json files manually
-Command Help - /plan import                     || Import data
-Command Help - /plan info                       || Information about the plugin
-Command Help - /plan ingame                     || Ver información de los jugadores en el juego
-Command Help - /plan json                       || View json of Player's raw data.
-Command Help - /plan logout                     || Log out other users from the panel.
-Command Help - /plan network                    || Ver la página de la red
-Command Help - /plan player                     || Ver la página de un jugador
-Command Help - /plan players                    || Ver la página de los jugadores
-Command Help - /plan register                   || Registrar un usuario web
-Command Help - /plan reload                     || Resetear Plan
-Command Help - /plan search                     || Buscar el nombre de un jugador
-Command Help - /plan server                     || Mira la página del servidor
-Command Help - /plan servers                    || Listar los servidores en la base de datos
-Command Help - /plan unregister                 || Unregister a user of Plan website
-Command Help - /plan users                      || List all web users
-Database - Apply Patch                          || Aplicar parche: ${0}..
-Database - Patches Applied                      || Los parches de la base de datos se han aplicado correctamente.
-Database - Patches Applied Already              || Los parches de la base de datos ya se han aplicado anteriormente.
-Database MySQL - Launch Options Error           || Opciones de Lanzamiento fallidos. Usando los predeterminados (${0})
-Database Notify - Clean                         || Eliminados los datos de ${0} jugadores.
-Database Notify - SQLite No WAL                 || El modo SQLite WAL no esta soportado en esta versión. Usando el predeterminado. Esto puede afectar o no al rendimiento.
-Disable                                         || Análisis del jugador deshabilitado.
-Disable - Processing                            || Procesando las tareas no procesadas. (${0})
-Disable - Processing Complete                   || Procesado completado.
-Disable - Unsaved Session Save                  || Salvando sesiones incompletas..
-Disable - Unsaved Session Save Timeout          || Timeout hit, storing the unfinished sessions on next enable instead.
-Disable - Waiting SQLite                        || Waiting queries to finish to avoid SQLite crashing JVM..
-Disable - Waiting SQLite Complete               || Closed SQLite connection.
-Disable - Waiting Transactions                  || Waiting for unfinished transactions to avoid data loss..
-Disable - Waiting Transactions Complete         || Transaction queue closed.
-Disable - WebServer                             || Servidores web han sido deshabilitados.
-Enable                                          || Analisis de jugadores habilitado.
-Enable - Database                               || ${0}-conexion a la base de datos establecido.
-Enable - Notify Bad IP                          || 0.0.0.0 no es una dirección válida, establece los ajustes AlternativeIP. ¡Se darán los links incorrectos!
-Enable - Notify Empty IP                        || La IP en el server.properties esta vacía y AlternativeIP no está en uso. ¡Se darán los links incorrectos!
-Enable - Notify Geolocations disabled           || La recolección por Geolocalizacion no está activada. (Data.Geolocations: false)
-Enable - Notify Geolocations Internet Required  || Plan requiere acceso a internet la primera vez para descargar la base de datos de GeoLite2 Geolocation.
-Enable - Notify Webserver disabled              || El servidor web no se ha iniciado. (WebServer.DisableWebServer: true)
-Enable - Storing preserved sessions             || Storing sessions that were preserved before previous shutdown.
-Enable - WebServer                              || Eñ servidor web esta funcionando en el puerto ${0} (${1})
-Enable FAIL - Database                          || ${0}-Conexion a la base de datos incorrecta: ${1}
-Enable FAIL - Database Patch                    || El parcheado de la base de datos ha fallado, el plugin tiene que ser deshabilitado. Por favor, reporta este error.
-Enable FAIL - GeoDB Write                       || Ha ocurrido un error al intentar descargar la base de datos GeoLite2 Geolocation.
-Enable FAIL - WebServer (Proxy)                 || ¡El servidor web no se ha iniciado!
-Enable FAIL - Wrong Database Type               || ${0} no es una base de datos sostenible.
-HTML - AND_BUG_REPORTERS                        || & Bug reporters!
-HTML - BANNED (Filters)                         || Banned
-HTML - COMPARING_15_DAYS                        || Comparando 15 dias
-HTML - COMPARING_60_DAYS                        || Comparando desde hace 30d hasta ahora
-HTML - COMPARING_7_DAYS                         || Comparando 7 dias
-HTML - DATABASE_NOT_OPEN                        || La base de datos no está abierta, mira su estado con /plan info
-HTML - DESCRIBE_RETENTION_PREDICTION            || This value is a prediction based on previous players.
-HTML - ERROR                                    || La autenticación ha llevado a error
-HTML - EXPIRED_COOKIE                           || User cookie has expired
-HTML - FILTER_ACTIVITY_INDEX_NOW                || Current activity group
-HTML - FILTER_ALL_PLAYERS                       || All players
-HTML - FILTER_BANNED                            || Ban status
-HTML - FILTER_GROUP                             || Group: 
-HTML - FILTER_OPS                               || Operator status
+API - css+                                      || Extensión de Página: ${0} añadido stylesheet(s) a ${1}, ${2}
+API - js+                                       || Extensión de Página: ${0} añadido javascript(s) a ${1}, ${2}
+Cmd - Click Me                                  || Clicame
+Cmd - Link                                      || ENLACE
+Cmd - Link Network                              || Página de BungeeCord: 
+Cmd - Link Player                               || Página del Jugador: 
+Cmd - Link Player JSON                          || Json del Jugador: 
+Cmd - Link Players                              || Página de Jugadores: 
+Cmd - Link Register                             || Página de Registro: 
+Cmd - Link Server                               || Página del Servidor: 
+CMD Arg - backup-file                           || Nombre del archivo de recuperación (sensible a mayúsculas)
+CMD Arg - code                                  || Código usado para finalizar el registro.
+CMD Arg - db type backup                        || Tipo de base de datos a guardar. Si no se especifica se usará la base de datos actual.
+CMD Arg - db type clear                         || Tipo de base de datos donde eliminar todos sus datos.
+CMD Arg - db type hotswap                       || Tipo de base de datos en uso.
+CMD Arg - db type move from                     || Tipo de base de datos desde la cual se quiere mover los datos.
+CMD Arg - db type move to                       || Tipo de base de datos donde mover los datos. No puede ser la misma que la anterior.
+CMD Arg - db type restore                       || Tipo de base de datos que se quiere restaurar. Si no se especifica se usará la base de datos actual.
+CMD Arg - feature                               || Nombre de la función a desactivar: ${0}
+CMD Arg - player identifier                     || Nombre o UUID del jugador
+CMD Arg - player identifier remove              || Identificador del jugador que se quiere eliminar de la base de datos.
+CMD Arg - server identifier                     || Nombre, ID o UUID del servidor
+CMD Arg - subcommand                            || Introduce el comando sin argumentos para obtener ayuda.
+CMD Arg - username                              || Nombre de usuario de otro usuario. Si no se especifica se usará el usuario enlazado.
+CMD Arg Name - backup-file                      || archivo de recuperación
+CMD Arg Name - code                             || ${código}
+CMD Arg Name - export kind                      || tipo de exportación
+CMD Arg Name - feature                          || función
+CMD Arg Name - import kind                      || tipo de importación
+CMD Arg Name - name or uuid                     || nombre/uuid
+CMD Arg Name - server                           || servidor
+CMD Arg Name - subcommand                       || argumento
+CMD Arg Name - username                         || nombre de usuario
+Cmd Confirm - accept                            || Aceptar
+Cmd Confirm - cancelled, no data change         || Cancelado. No se han cambiado datos.
+Cmd Confirm - cancelled, unregister             || Cancelado. '${0}' no se ha anulado el registro
+Cmd Confirm - clearing db                       || En ${0} se eliminarán definitivamente todos los datos de Plan
+Cmd Confirm - confirmation                      || Confirmar: 
+Cmd Confirm - deny                              || Cancelar
+Cmd Confirm - Expired                           || Tiempo de confirmación agotado. Usa el comando nuevamente.
+Cmd Confirm - Fail on accept                    || La acción aceptada a sufrido un error inesperado al ejecutarse: ${0}
+Cmd Confirm - Fail on deny                      || La acción cancelada a sufrido un error inesperado al ejecutarse: ${0}
+Cmd Confirm - overwriting db                    || Se van a sobrescribir los datos de Plan ${0} en ${1}
+Cmd Confirm - remove player db                  || Se van a eliminar los datos de Plan ${0} desde ${1}
+Cmd Confirm - unregister                        || Se va a anular el registro de '${0}' enlazado a ${1}
+Cmd db - creating backup                        || Creando un archivo de recuperación '${0}.db' conteniendo ${1}
+Cmd db - removal                                || Eliminando los datos de Plan desde ${0}..
+Cmd db - removal player                         || Eliminando los datos de ${0} desde ${1}..
+Cmd db - server uninstalled                     || §aSi el servidor aún está instalado, se configurará automáticamente como instalado en la base de datos.
+Cmd db - write                                  || Esperando a ${0}..
+Cmd Disable - Disabled                          || §aEl sistema de Plan está desactivado. Usa /planbungee reload para recargar el plugin.
+Cmd FAIL - Accepts only these arguments         || Acepta lo siguiente como ${0}: ${1}
+Cmd FAIL - Database not open                    || §cNo se puede acceder a la Base de Datos ${0}. Inténtalo de nuevo más tarde.
+Cmd FAIL - Empty search string                  || El campo de búsqueda no puede estar vacío.
+Cmd FAIL - Invalid Username                     || §cEl jugador no tiene UUID.
+Cmd FAIL - No Feature                           || §e¡Especifica una función a desactivar! (actualmente disponible ${0})
+Cmd FAIL - No Permission                        || §cNo tienes suficientes permisos.
+Cmd FAIL - No player                            || No se ha encontrado el jugador '${0}', no tiene la UUID.
+Cmd FAIL - No player register                   || No se ha encontrado el jugador '${0}' en la base de datos.
+Cmd FAIL - No server                            || El servidor '${0}' no se ha encontrado en la base de datos.
+Cmd FAIL - Require only one Argument            || §cSolo se admite un argumento ${1}
+Cmd FAIL - Requires Arguments                   || §cEs necesario especificar los argumentos (${0}) ${1}
+Cmd FAIL - see config                           || Mira '${0}' en el archivo config.yml
+Cmd FAIL - Unknown Username                     || §cEl jugador no ha estado en este servidor.
+Cmd FAIL - Users not linked                     || El usuario no a enlazado su cuenta y no tiene permisos para eliminar otros usuarios.
+Cmd FAIL - WebUser does not exists              || §c¡El usuario no existe!
+Cmd FAIL - WebUser exists                       || §c¡El usuario ya existe!
+Cmd Footer - Help                               || §8§oColoca el cursor sobre el comando o los argumentos o usa '/${0} ?' para obtener más información sobre ellos.
+Cmd Header - Analysis                           || §2Resultados del Análisis
+Cmd Header - Help                               || §2Ayuda de Plan
+Cmd Header - Info                               || §2Análisis del Jugador
+Cmd Header - Inspect                            || §2Jugador: §7${0}
+Cmd Header - Network                            || §2Página de BungeeCord
+Cmd Header - Players                            || §2Jugadores
+Cmd Header - Search                             || §2${0} Resultados de §7${1}§2:
+Cmd Header - server list                        || §8§oID::| Nombre::| UUID
+Cmd Header - Servers                            || §2Servidores
+Cmd Header - web user list                      || §8§oNombre de usuario::| Enlazado a::| Nivel de Permiso
+Cmd Header - Web Users                          || Usuarios Web: ${0}
+Cmd Info - Bungee Connection                    || §2► Conectado a un Proxy: §7${0}
+Cmd Info - Database                             || §2► Base de Datos activa: §7${0}
+Cmd Info - Reload Complete                      || §2[Plan] §aRecarga del plugin completada.
+Cmd Info - Reload Failed                        || §2[Plan] §cSe ha producido un fallo durante la recarga del plugin, se recomienda reiniciar el servidor.
+Cmd Info - Update                               || §2► Actualización disponible: §7${0}
+Cmd Info - Version                              || §2► Versión de Plan: §7${0}
+Cmd network - No network                        || El servidor no está conectado a ninguna red BungeeCord. El enlace redirige a la página del servidor.
+Cmd Notify - No Address                         || §eNo existe una dirección disponible. Usando la dirección local como alternativa. Establece una IP Alternativa en la configuración.
+Cmd Notify - No WebUser                         || Es posible que no tengas un usuario web, usa /plan register <contraseña>
+Cmd Notify - WebUser register                   || Se ha registrado un usuario nuevo: '${0}' Nivel de Permisos: ${1}
+Cmd Qinspect - Active Playtime                  ||   §2Tiempo de Actividad: §7${0}
+Cmd Qinspect - Activity Index                   ||   §2Índice de actividad: §7${0} | ${1}
+Cmd Qinspect - AFK Playtime                     ||   §2Tiempo Ausente: §7${0}
+Cmd Qinspect - Deaths                           ||   §2Muertes: §7${0}
+Cmd Qinspect - Geolocation                      ||   §2Geolocalización: §7${0}
+Cmd Qinspect - Last Seen                        ||   §2Última Sesión: §7${0}
+Cmd Qinspect - Longest Session                  ||   §2Sesión más duradera: §7${0}
+Cmd Qinspect - Mob Kills                        ||   §2Asesinatos de Entidades: §7${0}
+Cmd Qinspect - Player Kills                     ||   §2Asesinatos de Jugadores: §7${0}
+Cmd Qinspect - Playtime                         ||   §2Jugado: §7${0}
+Cmd Qinspect - Registered                       ||   §2Registrado: §7${0}
+Cmd Qinspect - Times Kicked                     ||   §2Expulsado: §7${0}
+Cmd SUCCESS - Feature disabled                  || §aLa función '${0}' permanecerá desactivada temporalmente hasta recargar el plugin.
+Cmd SUCCESS - WebUser register                  || §a¡Se ha añadido correctamente el nuevo usuario (${0})! Puedes ver el panel web a través del siguiente enlace.
+Cmd unregister - unregistering                  || Eliminando el registro '${0}'..
+Cmd WARN - Database not open                    || §eLa base de datos es ${0}. Esta acción puede tardar más de lo esperado..
+Cmd Web - Permission Levels                     || >\§70: Acceso a todas las páginas\§71: Acceso a '/players' y todas las páginas del jugador\§72: Acceso únicamente a la página del propio jugador\§73+: Sin permisos
+Command Help - /plan db                         || §7► Administra la Base de Datos de Plan.
+Command Help - /plan db backup                  || §7► Crea un archivo de recuperación de la base de datos.
+Command Help - /plan db clear                   || §7► Elimina todos los datos de la base de datos de Plan.
+Command Help - /plan db hotswap                 || §7► Cambia el tipo de base de datos rápidamente.
+Command Help - /plan db move                    || §7► Mueve los datos entre bases de datos.
+Command Help - /plan db remove                  || §7► Elimina usuarios de la base de datos actual.
+Command Help - /plan db restore                 || §7► Restaura datos desde una base de datos de recuperación.
+Command Help - /plan db uninstalled             || §7► Marca un servidor como desinstalado, en la base de datos.
+Command Help - /plan disable                    || §7► Desactiva el plugin o parte del mismo.
+Command Help - /plan export                     || §7► Exporta manualmente archivos html o json.
+Command Help - /plan import                     || §7► Importa diferentes datos.
+Command Help - /plan info                       || §7► Muestra información sobre el plugin.
+Command Help - /plan ingame                     || §7► Muestra en el juego información sobre el jugador.
+Command Help - /plan json                       || §7► Muestra los datos json de un jugador en texto plano.
+Command Help - /plan logout                     || §7► Cierra la sesión de otros usuarios en el panel.
+Command Help - /plan network                    || §7► Muestra la página de la Red BungeeCord.
+Command Help - /plan player                     || §7► Muestra la página de un Jugador.
+Command Help - /plan players                    || §7► Muestra la página de Jugadores.
+Command Help - /plan register                   || §7► Registra un usuario web.
+Command Help - /plan reload                     || §7► Reinicia el plugin Plan.
+Command Help - /plan search                     || §7► Busca el nombre de un jugador.
+Command Help - /plan server                     || §7► Muestra la página del servidor.
+Command Help - /plan servers                    || §7► Muestra la lista de servidores de la base de datos.
+Command Help - /plan unregister                 || §7► Elimina el registro de un usuario web.
+Command Help - /plan users                      || §7► Muestra la lista de usuarios web.
+Database - Apply Patch                          || Aplicando la revisión: ${0}..
+Database - Patches Applied                      || Se han aplicado todas las revisiones de la base de datos correctamente.
+Database - Patches Applied Already              || Ya están aplicadas todas las revisiones de la base de datos.
+Database MySQL - Launch Options Error           || Las opciones de inicio son incorrectas por lo que se van a usar las predeterminadas (${0})
+Database Notify - Clean                         || Se han eliminado los datos de ${0} jugadores.
+Database Notify - SQLite No WAL                 || El modo WAL de SQLite no es compatible con la versión del servidor, por lo que se va a usar el valor predeterminado. Esto puede afectar o no, al rendimiento.
+Disable                                         || §cSe ha desactivado el Análisis de Jugadores.
+Disable - Processing                            || §6Procesando ${0} tareas críticas pendientes..
+Disable - Processing Complete                   || §2Tareas pendientes procesadas con éxito.
+Disable - Unsaved Session Save                  || §6Guardando sesiones no finalizadas..
+Disable - Unsaved Session Save Timeout          || Tiempo excedido. Guardando la sesión sin finalizar para reactivar en la siguiente sesión.
+Disable - Waiting SQLite                        || Esperando que finalicen las consultas para evitar colapsar la base de datos SQLite..
+Disable - Waiting SQLite Complete               || Consultas de SQLite finalizadas.
+Disable - Waiting Transactions                  || Esperando que finalicen las transacciones para evitar la pérdida de datos..
+Disable - Waiting Transactions Complete         || Transacciones finalizadas.
+Disable - WebServer                             || §cServidor-Web ► El servidor web se ha detenido.
+Enable                                          || §2Se ha activado el Análisis de Jugadores.
+Enable - Database                               || §6Se ha establecido conexión con la Base de Datos ${0}.
+Enable - Notify Bad IP                          || 0.0.0.0 no es una dirección válida, establece una IP Alternativa en la configuración. ¡Se pueden generar direcciones incorrectas!
+Enable - Notify Empty IP                        || No se ha establecido la IP en server.properties y la IP alternativa no está activa. ¡Se pueden generar direcciones incorrectas!
+Enable - Notify Geolocations disabled           || La función de Geolocalización no está activa. (Data.Geolocations: false)
+Enable - Notify Geolocations Internet Required  || Plan necesita tener acceso a internet en su primera ejecución para descargar la base de datos de Geolocalización GeoLite2.
+Enable - Notify Webserver disabled              || El Servidor-Web no se ha iniciado. (WebServer.DisableWebServer: true)
+Enable - Storing preserved sessions             || Guardando sesiones almacenadas antes del último cierre.
+Enable - WebServer                              || §2Servidor-Web ► Funcionando en la dirección: ${1} §8► (Puerto ${0}) 
+Enable FAIL - Database                          || Conexión fallida con la Base de Datos ${0}: ${1}
+Enable FAIL - Database Patch                    || Ha fallado la revisión de la base de datos, el plugin puede estar desactivado. Por favor, informa sobre este problema.
+Enable FAIL - GeoDB Write                       || Algo ha ocurrido al guardar la base de datos descargada de Geolocalización GeoLite2.
+Enable FAIL - WebServer (Proxy)                 || ¡El Servidor-Web no se ha iniciado!
+Enable FAIL - Wrong Database Type               || ${0} no es una Base de Datos válida
+HTML - AND_BUG_REPORTERS                        || e Informar sobre errores!
+HTML - BANNED (Filters)                         || Baneado
+HTML - COMPARING_15_DAYS                        || Comparativa a 15 días
+HTML - COMPARING_60_DAYS                        || Comparativa a 30 días
+HTML - COMPARING_7_DAYS                         || Comparativa a 7 días
+HTML - DATABASE_NOT_OPEN                        || No se puede abrir la base de datos, comprueba el estado usando /plan info
+HTML - DESCRIBE_RETENTION_PREDICTION            || Este valor se obtiene en base a jugadores previos.
+HTML - ERROR                                    || Ha fallado la autentificación debido a un error
+HTML - EXPIRED_COOKIE                           || La cookie del usuario ha expirado
+HTML - FILTER_ACTIVITY_INDEX_NOW                || Índice de Actividad
+HTML - FILTER_ALL_PLAYERS                       || Todos los Jugadores
+HTML - FILTER_BANNED                            || Estado de Expulsiones
+HTML - FILTER_GROUP                             || Grupo de 
+HTML - FILTER_OPS                               || Operador
 HTML - INDEX_ACTIVE                             || Activo
 HTML - INDEX_INACTIVE                           || Inactivo
-HTML - INDEX_IRREGULAR                          || Irregular
+HTML - INDEX_IRREGULAR                          || Esporádico
 HTML - INDEX_REGULAR                            || Regular
-HTML - INDEX_VERY_ACTIVE                        || Muy activo
-HTML - KILLED                                   || Muerto
-HTML - LABEL_1ST_WEAPON                         || Arma PvP más mortal
-HTML - LABEL_2ND_WEAPON                         || 2ª arma PvP
-HTML - LABEL_3RD_WEAPON                         || 3ª arma PvP
-HTML - LABEL_ACTIVE_PLAYTIME                    || Active Playtime
-HTML - LABEL_ACTIVITY_INDEX                     || Índice de actividad
-HTML - LABEL_AFK                                || AFK
-HTML - LABEL_AFK_TIME                           || Tiempo AFK
+HTML - INDEX_VERY_ACTIVE                        || Muy Activo
+HTML - KILLED                                   || Asesinado
+HTML - LABEL_1ST_WEAPON                         || Primera Arma PvP más letal
+HTML - LABEL_2ND_WEAPON                         || Segunda Arma PvP más letal
+HTML - LABEL_3RD_WEAPON                         || Tercera Arma PvP más letal
+HTML - LABEL_ACTIVE_PLAYTIME                    || Actividad de Juego
+HTML - LABEL_ACTIVITY_INDEX                     || Índice de Actividad
+HTML - LABEL_AFK                                || Ausente
+HTML - LABEL_AFK_TIME                           || Tiempo Ausente
 HTML - LABEL_AVG                                || Promedio
-HTML - LABEL_AVG_ACTIVE_PLAYTIME                || Average Active Playtime
-HTML - LABEL_AVG_AFK_TIME                       || Average AFK Time
-HTML - LABEL_AVG_CHUNKS                         || Average Chunks
-HTML - LABEL_AVG_ENTITIES                       || Average Entities
-HTML - LABEL_AVG_KDR                            || KDR promedio
-HTML - LABEL_AVG_MOB_KDR                        || KDR de mobs promedio
-HTML - LABEL_AVG_PLAYTIME                       || Jugabilidad promedio
-HTML - LABEL_AVG_SESSION_LENGTH                 || Duración de sesion promedio
-HTML - LABEL_AVG_SESSIONS                       || Average Sessions
-HTML - LABEL_AVG_TPS                            || TPS promedio
-HTML - LABEL_BANNED                             || Baneado
-HTML - LABEL_BEST_PEAK                          || Mejor pico
-HTML - LABEL_DAY_OF_WEEK                        || Dia de la semana
+HTML - LABEL_AVG_ACTIVE_PLAYTIME                || Tiempo medio de Juego
+HTML - LABEL_AVG_AFK_TIME                       || Tiempo medio en AFK
+HTML - LABEL_AVG_CHUNKS                         || Promedio de Chunks
+HTML - LABEL_AVG_ENTITIES                       || Promedio de Entidades
+HTML - LABEL_AVG_KDR                            || KDR medio
+HTML - LABEL_AVG_MOB_KDR                        || KDR de mobs medio
+HTML - LABEL_AVG_PLAYTIME                       || Tiempo medio de Juego
+HTML - LABEL_AVG_SESSION_LENGTH                 || Duración media de Sesión
+HTML - LABEL_AVG_SESSIONS                       || Promedio de Sesiones
+HTML - LABEL_AVG_TPS                            || TPS medio
+HTML - LABEL_BANNED                             || Expulsado
+HTML - LABEL_BEST_PEAK                          || Mejor Pico
+HTML - LABEL_DAY_OF_WEEK                        || Día de la semana
 HTML - LABEL_DEATHS                             || Muertes
-HTML - LABEL_DOWNTIME                           || Falta de tiempo
-HTML - LABEL_DURING_LOW_TPS                     || Durante picos bajos de TPS:
+HTML - LABEL_DOWNTIME                           || Inactividad del Servidor
+HTML - LABEL_DURING_LOW_TPS                     || Durante una bajada de TPS:
 HTML - LABEL_ENTITIES                           || Entidades
-HTML - LABEL_FAVORITE_SERVER                    || Servidor favorito
-HTML - LABEL_FIRST_SESSION_LENGTH               || Duración de primera sesion
-HTML - LABEL_FREE_DISK_SPACE                    || Espacio libre en el disco duro
+HTML - LABEL_FAVORITE_SERVER                    || Servidor Preferido
+HTML - LABEL_FIRST_SESSION_LENGTH               || Duración de la primera sesión
+HTML - LABEL_FREE_DISK_SPACE                    || Espacio Libre en Disco
 HTML - LABEL_INACTIVE                           || Inactivo
-HTML - LABEL_LAST_PEAK                          || Último pico
-HTML - LABEL_LAST_SEEN                          || Última vez visto
-HTML - LABEL_LOADED_CHUNKS                      || Chunks cargados
-HTML - LABEL_LOADED_ENTITIES                    || Entidades cargadas
+HTML - LABEL_LAST_PEAK                          || Último Pico
+HTML - LABEL_LAST_SEEN                          || Última Sesión
+HTML - LABEL_LOADED_CHUNKS                      || Chunks Cargados
+HTML - LABEL_LOADED_ENTITIES                    || Entidades Cargadas
 HTML - LABEL_LONE_JOINS                         || Uniones solitarias
-HTML - LABEL_LONE_NEW_JOINS                     || Uniones solitarias nuevas
-HTML - LABEL_LONGEST_SESSION                    || Sesión más larga
-HTML - LABEL_LOW_TPS                            || Picos bajos TPS
-HTML - LABEL_MAX_FREE_DISK                      || Máximo espacio libre en el disco duro
-HTML - LABEL_MIN_FREE_DISK                      || Mínimo espacio libre en el disco duro
-HTML - LABEL_MOB_DEATHS                         || Muertes causadas por mobs
-HTML - LABEL_MOB_KDR                            || KDR de mobs
-HTML - LABEL_MOB_KILLS                          || Asesinatos de mobs
-HTML - LABEL_MOST_ACTIVE_GAMEMODE               || Modo de juego mas activo
+HTML - LABEL_LONE_NEW_JOINS                     || Nuevas uniones solitarias
+HTML - LABEL_LONGEST_SESSION                    || Sesión más Larga
+HTML - LABEL_LOW_TPS                            || Bajadas de TPS
+HTML - LABEL_MAX_FREE_DISK                      || Espacio en Disco Máximo
+HTML - LABEL_MIN_FREE_DISK                      || Espacio en Disco Mínimo
+HTML - LABEL_MOB_DEATHS                         || Muertes Causadas por Criaturas
+HTML - LABEL_MOB_KDR                            || KDR de Criaturas
+HTML - LABEL_MOB_KILLS                          || Criaturas Eliminadas
+HTML - LABEL_MOST_ACTIVE_GAMEMODE               || Modo de Juego más Usado
 HTML - LABEL_NAME                               || Nombre
 HTML - LABEL_NEW                                || Nuevo
-HTML - LABEL_NEW_PLAYERS                        || Jugadores nuevos
-HTML - LABEL_NICKNAME                           || Nick
-HTML - LABEL_NO_SESSION_KILLS                   || Nada
-HTML - LABEL_ONLINE_FIRST_JOIN                  || Jugadores en línea en primera unión
-HTML - LABEL_OPERATOR                           || Operador.
+HTML - LABEL_NEW_PLAYERS                        || Jugadores Nuevos
+HTML - LABEL_NICKNAME                           || Alias
+HTML - LABEL_NO_SESSION_KILLS                   || Ninguna
+HTML - LABEL_ONLINE_FIRST_JOIN                  || Jugadores conectados por primera vez
+HTML - LABEL_OPERATOR                           || Operador
 HTML - LABEL_PER_PLAYER                         || / Jugador
-HTML - LABEL_PER_REGULAR_PLAYER                 || / Jugador regular
-HTML - LABEL_PLAYER_DEATHS                      || Muertes causadas por jugadores
-HTML - LABEL_PLAYER_KILLS                       || Muertes del jugador
-HTML - LABEL_PLAYERS_ONLINE                     || Jugadores en línea
-HTML - LABEL_PLAYTIME                           || Tiempo de juego
+HTML - LABEL_PER_REGULAR_PLAYER                 || / Jugador Habitual
+HTML - LABEL_PLAYER_DEATHS                      || Muertes por Jugadores
+HTML - LABEL_PLAYER_KILLS                       || Jugadores Asesinados
+HTML - LABEL_PLAYERS_ONLINE                     || Jugadores Conectados
+HTML - LABEL_PLAYTIME                           || Tiempo de Juego
 HTML - LABEL_REGISTERED                         || Registrado
-HTML - LABEL_REGISTERED_PLAYERS                 || Jugadores registrados
-HTML - LABEL_REGULAR                            || Normal
-HTML - LABEL_REGULAR_PLAYERS                    || Jugadores normal
-HTML - LABEL_RELATIVE_JOIN_ACTIVITY             || Actividad de unión relativa
-HTML - LABEL_RETENTION                          || Retención nuevo jugador
-HTML - LABEL_SERVER_DOWNTIME                    || Tiempo de falta de servidor
+HTML - LABEL_REGISTERED_PLAYERS                 || Jugadores Registrados
+HTML - LABEL_REGULAR                            || Habitual
+HTML - LABEL_REGULAR_PLAYERS                    || Jugadores Habituales
+HTML - LABEL_RELATIVE_JOIN_ACTIVITY             || Actividad Relativa de Conexiones
+HTML - LABEL_RETENTION                          || Retención de Jugadores
+HTML - LABEL_SERVER_DOWNTIME                    || Inactividad del Servidor
 HTML - LABEL_SERVER_OCCUPIED                    || Servidor ocupado
-HTML - LABEL_SESSION_ENDED                      ||  Acabado
-HTML - LABEL_SESSION_MEDIAN                     || Sesión media.
-HTML - LABEL_TIMES_KICKED                       || Veces kickeado
-HTML - LABEL_TOTAL_PLAYERS                      || Jugadores totales
-HTML - LABEL_TOTAL_PLAYTIME                     || Jugabilidad total
-HTML - LABEL_UNIQUE_PLAYERS                     || Jugadores únicos
+HTML - LABEL_SESSION_ENDED                      ||  Finalizado
+HTML - LABEL_SESSION_MEDIAN                     || Tiempo medio de Sesión
+HTML - LABEL_TIMES_KICKED                       || Veces Expulsado
+HTML - LABEL_TOTAL_PLAYERS                      || Jugadores en Total
+HTML - LABEL_TOTAL_PLAYTIME                     || Tiempo de Juego Total
+HTML - LABEL_UNIQUE_PLAYERS                     || Jugadores Únicos
 HTML - LABEL_WEEK_DAYS                          || 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo'
 HTML - LINK_BACK_NETWORK                        || Página web
-HTML - LINK_BACK_SERVER                         || Página del servidor
-HTML - LINK_CHANGELOG                           || Ver el registro de cambios
-HTML - LINK_DISCORD                             || Soporte general en Discord
-HTML - LINK_DOWNLOAD                            || Descarga
-HTML - LINK_ISSUES                              || Reportar errores
-HTML - LINK_NIGHT_MODE                          || Modo noche
-HTML - LINK_PLAYER_PAGE                         || Pagina de jugador
-HTML - LINK_QUICK_VIEW                          || Vista rápida
-HTML - LINK_SERVER_ANALYSIS                     || Análisis de servidor
-HTML - LINK_WIKI                                || Plan Wiki, Tutoriales & Documentación
-HTML - LOCAL_MACHINE                            || Máquina local
-HTML - LOGIN_CREATE_ACCOUNT                     || Create an Account!
-HTML - LOGIN_FAILED                             || Login failed: 
-HTML - LOGIN_FORGOT_PASSWORD                    || Forgot Password?
-HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_1     || Forgot password? Unregister and register again.
-HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_2     || Use the following command in game to remove your current user:
-HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_3     || Or using console:
-HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_4     || After using the command, 
-HTML - LOGIN_LOGIN                              || Login
-HTML - LOGIN_LOGOUT                             || Logout
-HTML - LOGIN_PASSWORD                           || "Password"
-HTML - LOGIN_USERNAME                           || "Username"
+HTML - LINK_BACK_SERVER                         || Página del Servidor
+HTML - LINK_CHANGELOG                           || Ver Cambios
+HTML - LINK_DISCORD                             || Soporte de Discord
+HTML - LINK_DOWNLOAD                            || Descargar
+HTML - LINK_ISSUES                              || Problemas detectados
+HTML - LINK_NIGHT_MODE                          || Modo Nocturno
+HTML - LINK_PLAYER_PAGE                         || Página del Jugador
+HTML - LINK_QUICK_VIEW                          || Vista Rápida
+HTML - LINK_SERVER_ANALYSIS                     || Estadísticas del Servidor
+HTML - LINK_WIKI                                || Wiki de Plan, Documentación y Tutoriales
+HTML - LOCAL_MACHINE                            || Máquina Local
+HTML - LOGIN_CREATE_ACCOUNT                     || ¡Crear una Cuenta!
+HTML - LOGIN_FAILED                             || Ha fallado la Identificación: 
+HTML - LOGIN_FORGOT_PASSWORD                    || ¿Has olvidado la contraseña?
+HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_1     || ¿Has olvidado la contraseña? Elimina el registro y regístrate de nuevo.
+HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_2     || Introduce el siguiente comando para eliminar tu registro actual:
+HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_3     || O en consola:
+HTML - LOGIN_FORGOT_PASSWORD_INSTRUCTIONS_4     || Después debes introducir el comando, 
+HTML - LOGIN_LOGIN                              || Conectado
+HTML - LOGIN_LOGOUT                             || Desconectado
+HTML - LOGIN_PASSWORD                           || "Contraseña"
+HTML - LOGIN_USERNAME                           || "Usuario"
 HTML - NAV_PLUGINS                              || Plugins
 HTML - NEW_CALENDAR                             || Nuevo:
-HTML - NO_KILLS                                 || Sin muertes
-HTML - NO_USER_PRESENT                          || User cookie not present
-HTML - NON_OPERATORS (Filters)                  || Non operators
-HTML - NOT_BANNED (Filters)                     || Not banned
+HTML - NO_KILLS                                 || Sin Muertes
+HTML - NO_USER_PRESENT                          || La Cookie del usuario no está presente
+HTML - NON_OPERATORS (Filters)                  || No es Operador
+HTML - NOT_BANNED (Filters)                     || Sin Banear
 HTML - OFFLINE                                  ||  Desconectado
 HTML - ONLINE                                   ||  Conectado
-HTML - OPERATORS (Filters)                      || Operators
-HTML - PER_DAY                                  || / Dia
+HTML - OPERATORS (Filters)                      || Operador
+HTML - PER_DAY                                  || por Día
 HTML - PLAYERS_TEXT                             || Jugadores
-HTML - QUERY                                    || Query<
-HTML - QUERY_ACTIVITY_OF_MATCHED_PLAYERS        || Activity of matched players
-HTML - QUERY_ACTIVITY_ON                        || Activity on <span id="activity-date"></span>
-HTML - QUERY_ADD_FILTER                         || Add a filter..
-HTML - QUERY_AND                                || and 
-HTML - QUERY_ARE                                || `are`
-HTML - QUERY_ARE_ACTIVITY_GROUP                 || are in Activity Groups
-HTML - QUERY_ARE_PLUGIN_GROUP                   || are in ${plugin}'s ${group} Groups
-HTML - QUERY_JOINED_WITH_ADDRESS                || joined with address
-HTML - QUERY_LOADING_FILTERS                    || Loading filters..
-HTML - QUERY_MAKE                               || Make a query
-HTML - QUERY_MAKE_ANOTHER                       || Make another query
-HTML - QUERY_OF_PLAYERS                         || of Players who 
-HTML - QUERY_PERFORM_QUERY                      || Perform Query!
-HTML - QUERY_PLAYED_BETWEEN                     || Played between
-HTML - QUERY_REGISTERED_BETWEEN                 || Registered between
-HTML - QUERY_RESULTS                            || Query Results
-HTML - QUERY_RESULTS_MATCH                      || matched ${resultCount} players
-HTML - QUERY_SESSIONS_WITHIN_VIEW               || Sessions within view
-HTML - QUERY_SHOW_VIEW                          || Show a view
-HTML - QUERY_TIME_FROM                          || >from</label>
-HTML - QUERY_TIME_TO                            || >to</label>
-HTML - QUERY_VIEW                               ||   View:
-HTML - QUERY_ZERO_RESULTS                       || Query produced 0 results
-HTML - REGISTER                                 || Register
-HTML - REGISTER_CHECK_FAILED                    || Checking registration status failed: 
-HTML - REGISTER_COMPLETE                        || Complete Registration
-HTML - REGISTER_COMPLETE_INSTRUCTIONS_1         || You can now finish registering the user.
-HTML - REGISTER_COMPLETE_INSTRUCTIONS_2         || Code expires in 15 minutes
-HTML - REGISTER_COMPLETE_INSTRUCTIONS_3         || Use the following command in game to finish registration:
-HTML - REGISTER_COMPLETE_INSTRUCTIONS_4         || Or using console:
-HTML - REGISTER_CREATE_USER                     || Create a new user
-HTML - REGISTER_FAILED                          || Registration failed: 
-HTML - REGISTER_HAVE_ACCOUNT                    || Already have an account? Login!
-HTML - REGISTER_PASSWORD_TIP                    || Password should be more than 8 characters, but there are no limitations.
-HTML - REGISTER_SPECIFY_PASSWORD                || You need to specify a Password
-HTML - REGISTER_SPECIFY_USERNAME                || You need to specify a Username
-HTML - REGISTER_USERNAME_LENGTH                 || Username can be up to 50 characters, yours is 
-HTML - REGISTER_USERNAME_TIP                    || Username can be up to 50 characters.
+HTML - QUERY                                    || Consulta de datos<
+HTML - QUERY_ACTIVITY_OF_MATCHED_PLAYERS        || Actividad de los jugadores encontrados
+HTML - QUERY_ACTIVITY_ON                        || Actividad de <span id="activity-date"></span>
+HTML - QUERY_ADD_FILTER                         || Añadir filtro...
+HTML - QUERY_AND                                || Estando 
+HTML - QUERY_ARE                                || ``
+HTML - QUERY_ARE_ACTIVITY_GROUP                 || Agrupados por Actividad
+HTML - QUERY_ARE_PLUGIN_GROUP                   || está en ${plugin} y ${group} Grupos
+HTML - QUERY_JOINED_WITH_ADDRESS                || conectado con la dirección
+HTML - QUERY_LOADING_FILTERS                    || Cargando filtros..
+HTML - QUERY_MAKE                               || Realizar consultas
+HTML - QUERY_MAKE_ANOTHER                       || Nueva Consulta
+HTML - QUERY_OF_PLAYERS                         || Jugadores 
+HTML - QUERY_PERFORM_QUERY                      || ¡REALIZAR CONSULTA!
+HTML - QUERY_PLAYED_BETWEEN                     || Jugando entre fechas
+HTML - QUERY_REGISTERED_BETWEEN                 || Registrado entre fechas
+HTML - QUERY_RESULTS                            || Resultado de las Consultas
+HTML - QUERY_RESULTS_MATCH                      || encontrados ${resultCount} jugadores
+HTML - QUERY_SESSIONS_WITHIN_VIEW               || Vista de sesiones
+HTML - QUERY_SHOW_VIEW                          || Mostrando gráfica
+HTML - QUERY_TIME_FROM                          || >Desde:</label>
+HTML - QUERY_TIME_TO                            || >Hasta:</label>
+HTML - QUERY_VIEW                               ||   Visualizando:
+HTML - QUERY_ZERO_RESULTS                       || La consulta ha generado 0 resultados
+HTML - REGISTER                                 || Registrado
+HTML - REGISTER_CHECK_FAILED                    || La comprobación del estado a fallado: 
+HTML - REGISTER_COMPLETE                        || Completar Registro
+HTML - REGISTER_COMPLETE_INSTRUCTIONS_1         || Ahora puedes finalizar el registro del usuario.
+HTML - REGISTER_COMPLETE_INSTRUCTIONS_2         || El código expira en 15 minutos
+HTML - REGISTER_COMPLETE_INSTRUCTIONS_3         || Introduce el siguiente comando en el juego para completar el registro:
+HTML - REGISTER_COMPLETE_INSTRUCTIONS_4         || O usando la consola:
+HTML - REGISTER_CREATE_USER                     || Crear usuario nuevo
+HTML - REGISTER_FAILED                          || Fallo al registrar: 
+HTML - REGISTER_HAVE_ACCOUNT                    || ¿Ya tiene cuenta? ¡Conectar!
+HTML - REGISTER_PASSWORD_TIP                    || la contraseña debe tener más de 8 caracteres, pero no hay limitaciones.
+HTML - REGISTER_SPECIFY_PASSWORD                || Debes especificar la Contraseña
+HTML - REGISTER_SPECIFY_USERNAME                || Debes especificar el Nombre de Usuario
+HTML - REGISTER_USERNAME_LENGTH                 || El nombre de usuario puede tener hasta 50 caracteres, el tuyo tiene 
+HTML - REGISTER_USERNAME_TIP                    || El nombre de usuario puede tener hasta 50 caracteres.
 HTML - SESSION                                  || Sesión
 HTML - SIDE_GEOLOCATIONS                        || Geolocalizaciones
 HTML - SIDE_INFORMATION                         || INFORMACIÓN
-HTML - SIDE_LINKS                               || LINKS
-HTML - SIDE_NETWORK_OVERVIEW                    || Vista general de red
-HTML - SIDE_OVERVIEW                            || Vista general
+HTML - SIDE_LINKS                               || ENLACES
+HTML - SIDE_NETWORK_OVERVIEW                    || Información sobre la Red
+HTML - SIDE_OVERVIEW                            || Información Global
 HTML - SIDE_PERFORMANCE                         || Rendimiento
-HTML - SIDE_PLAYER_LIST                         || Lista de jugadores
-HTML - SIDE_PLAYERBASE                          || Base de jugadores
-HTML - SIDE_PLAYERBASE_OVERVIEW                 || Vista general de base de jugadores
+HTML - SIDE_PLAYER_LIST                         || Lista de Jugadores
+HTML - SIDE_PLAYERBASE                          || Jugadores
+HTML - SIDE_PLAYERBASE_OVERVIEW                 || Jugadores en General
 HTML - SIDE_PLUGINS                             || PLUGINS
 HTML - SIDE_PVP_PVE                             || PvP y PvE
 HTML - SIDE_SERVERS                             || Servidores
-HTML - SIDE_SERVERS_TITLE                       || SERVERS
+HTML - SIDE_SERVERS_TITLE                       || SERVIDORES
 HTML - SIDE_SESSIONS                            || Sesiones
-HTML - SIDE_TO_MAIN_PAGE                        || hasta la página principal
-HTML - TEXT_CLICK_TO_EXPAND                     || Haz clic para expandir
-HTML - TEXT_CONTRIBUTORS_CODE                   || código de contribuidor
-HTML - TEXT_CONTRIBUTORS_LOCALE                 || traductor
-HTML - TEXT_CONTRIBUTORS_MONEY                  || Gracias especialmente a aquellas personas que ayudaron en el desarrollo económico.
-HTML - TEXT_CONTRIBUTORS_THANKS                 || Sobre todo las siguientes <span class="col-plan">personas maravillosas</span> que han contribuido:
-HTML - TEXT_DEV_VERSION                         || Esta versión es para DEV..
-HTML - TEXT_DEVELOPED_BY                        || esta desarrollado por
-HTML - TEXT_FIRST_SESSION                       || Primera sesión
-HTML - TEXT_LICENSED_UNDER                      || Player Analytics esta desarrollado y licenciado por
-HTML - TEXT_METRICS                             || bStats Metrics
-HTML - TEXT_NO_EXTENSION_DATA                   || Sin extensión de datos.
-HTML - TEXT_NO_LOW_TPS                          || Sin picos bajos TPS.
-HTML - TEXT_NO_SERVER                           || Sin un servidor donde registrar la actividad online.
-HTML - TEXT_NO_SERVERS                          || Ningun servidor encontrado en la base de datos.
-HTML - TEXT_PLUGIN_INFORMATION                  || Información sobre el plugin.
-HTML - TEXT_PREDICTED_RETENTION                 || Este valor es una predicción que viene dado por jugadores anteriores.
-HTML - TEXT_SERVER_INSTRUCTIONS                 || It appears that Plan is not installed on any game servers or not connected to the same database. See <a href="https://github.com/plan-player-analytics/Plan/wiki">wiki</a> for Network tutorial.
-HTML - TEXT_VERSION                             || Una nueva versión se ha lanzado y esta lista para ser descargada.
+HTML - SIDE_TO_MAIN_PAGE                        || Volver al inicio
+HTML - TEXT_CLICK_TO_EXPAND                     || Clicar para mostrar detalles
+HTML - TEXT_CONTRIBUTORS_CODE                   || c4br3r4.es
+HTML - TEXT_CONTRIBUTORS_LOCALE                 || Plugin traducido al Español (España) por C4BR3R4
+HTML - TEXT_CONTRIBUTORS_MONEY                  || Agradecimiento especial a aquellos que han apoyado económicamente con el desarrollo.
+HTML - TEXT_CONTRIBUTORS_THANKS                 || Además de la siguiente <span class="col-plan">gente increíble</span> que han contribuido:
+HTML - TEXT_DEV_VERSION                         || Esta es una versión en desarrollo.
+HTML - TEXT_DEVELOPED_BY                        || desarrollado por
+HTML - TEXT_FIRST_SESSION                       || Primera Conexión
+HTML - TEXT_LICENSED_UNDER                      || Licencia
+HTML - TEXT_METRICS                             || Métricas de bStats
+HTML - TEXT_NO_EXTENSION_DATA                   || Sin Datos de Extensión
+HTML - TEXT_NO_LOW_TPS                          || No existen bajadas de tps
+HTML - TEXT_NO_SERVER                           || No existe ningún servidor donde mostrar la actividad online
+HTML - TEXT_NO_SERVERS                          || No se han encontrado servidores en la base de datos
+HTML - TEXT_PLUGIN_INFORMATION                  || Información sobre Plan
+HTML - TEXT_PREDICTED_RETENTION                 || Este valor es una predicción basada en jugadoras anteriores.
+HTML - TEXT_SERVER_INSTRUCTIONS                 || Parece que Plan no está instalado en ningún servidor o no está conectado a la misma base de datos. Busca en la <a href="https://github.com/plan-player-analytics/Plan/wiki">wiki</a> información sobre la conexión de la red.
+HTML - TEXT_VERSION                             || Se ha lanzado una nueva versión que ya se puede descargar.
 HTML - TITLE_30_DAYS                            || 30 días
 HTML - TITLE_30_DAYS_AGO                        || Hace 30 días
 HTML - TITLE_ALL                                || Todo
-HTML - TITLE_ALL_TIME                           || Todo el tiempo
-HTML - TITLE_AS_NUMBERS                         || como números
-HTML - TITLE_AVG_PING                           || Ping promedio
+HTML - TITLE_ALL_TIME                           || Todo el Tiempo
+HTML - TITLE_AS_NUMBERS                         || Estadísticas
+HTML - TITLE_AVG_PING                           || Ping medio
 HTML - TITLE_BEST_PING                          || Mejor Ping
 HTML - TITLE_CALENDAR                           ||  Calendario
-HTML - TITLE_CONNECTION_INFO                    || Información de conexión
+HTML - TITLE_CONNECTION_INFO                    || Información de Conexión
 HTML - TITLE_COUNTRY                            || País
 HTML - TITLE_CPU_RAM                            || CPU y RAM
-HTML - TITLE_CURRENT_PLAYERBASE                 || base del jugador actual
-HTML - TITLE_DISK                               || Espacio del disco
-HTML - TITLE_GRAPH_DAY_BY_DAY                   || Día a día
-HTML - TITLE_GRAPH_HOUR_BY_HOUR                 || Hour by Hour
-HTML - TITLE_GRAPH_NETWORK_ONLINE_ACTIVITY      || Actividad online de red
-HTML - TITLE_GRAPH_PUNCHCARD                    || Tarjeta por 30 días
-HTML - TITLE_INSIGHTS                           || Ideas por 30 días
-HTML - TITLE_IS_AVAILABLE                       || está disponible
-HTML - TITLE_JOIN_ADDRESSES                     || Join Addresses
+HTML - TITLE_CURRENT_PLAYERBASE                 || Jugadores Actuales
+HTML - TITLE_DISK                               || Espacio en Disco
+HTML - TITLE_GRAPH_DAY_BY_DAY                   || Por Días
+HTML - TITLE_GRAPH_HOUR_BY_HOUR                 || Hora a Hora
+HTML - TITLE_GRAPH_NETWORK_ONLINE_ACTIVITY      || Actividad online de la Red
+HTML - TITLE_GRAPH_PUNCHCARD                    || Impacto a 30 Días
+HTML - TITLE_INSIGHTS                           || Perspectiva a 30 días
+HTML - TITLE_IS_AVAILABLE                       || está Disponible
+HTML - TITLE_JOIN_ADDRESSES                     || Dirección de Conexión
 HTML - TITLE_LAST_24_HOURS                      || Últimas 24 horas
-HTML - TITLE_LAST_30_DAYS                       || Últimos 30 dias
+HTML - TITLE_LAST_30_DAYS                       || Últimos 30 días
 HTML - TITLE_LAST_7_DAYS                        || Últimos 7 días
-HTML - TITLE_LAST_CONNECTED                     || Última vez conectado
-HTML - TITLE_LENGTH                             ||  Duración
-HTML - TITLE_MOST_PLAYED_WORLD                  || Mundo más jugado
+HTML - TITLE_LAST_CONNECTED                     || Última Conexión
+HTML - TITLE_LENGTH                             ||  Tiempo
+HTML - TITLE_MOST_PLAYED_WORLD                  || Mundo más usado
 HTML - TITLE_NETWORK                            || Red
-HTML - TITLE_NETWORK_AS_NUMBERS                 || Red en números
+HTML - TITLE_NETWORK_AS_NUMBERS                 || Estadísticas de Red
 HTML - TITLE_NOW                                || Ahora
-HTML - TITLE_ONLINE_ACTIVITY                    || Actividad online
-HTML - TITLE_ONLINE_ACTIVITY_AS_NUMBERS         || Actividad online en números
-HTML - TITLE_ONLINE_ACTIVITY_OVERVIEW           || Vista general de la actividad online
-HTML - TITLE_PERFORMANCE_AS_NUMBERS             || Rendimiento en números
+HTML - TITLE_ONLINE_ACTIVITY                    || Gráfica de Actividad
+HTML - TITLE_ONLINE_ACTIVITY_AS_NUMBERS         || Estadísticas sobre la Actividad OnLine
+HTML - TITLE_ONLINE_ACTIVITY_OVERVIEW           || Resumen de Actividad
+HTML - TITLE_PERFORMANCE_AS_NUMBERS             || Estadísticas de Rendimiento
 HTML - TITLE_PING                               || Ping
-HTML - TITLE_PLAYER                             || Jugador
-HTML - TITLE_PLAYER_OVERVIEW                    || Vista general de jugador
-HTML - TITLE_PLAYERBASE_DEVELOPMENT             || Desarrollo de la base de jugadores
-HTML - TITLE_PVP_DEATHS                         || Asesinatos PvP recientes
-HTML - TITLE_PVP_KILLS                          || Muertes PvP recientes
-HTML - TITLE_PVP_PVE_NUMBERS                    || PvP y PvE en números
-HTML - TITLE_RECENT_KILLS                       || Asesinatos recientes
-HTML - TITLE_RECENT_SESSIONS                    || Sesiones recientes
-HTML - TITLE_SEEN_NICKNAMES                     || Nicks vistos
+HTML - TITLE_PLAYER                             || Jugadores
+HTML - TITLE_PLAYER_OVERVIEW                    || Visión General del Jugador
+HTML - TITLE_PLAYERBASE_DEVELOPMENT             || Desarrollo de los Jugadores
+HTML - TITLE_PVP_DEATHS                         || Muertes recientes PvP
+HTML - TITLE_PVP_KILLS                          || Asesinatos recientes PvP
+HTML - TITLE_PVP_PVE_NUMBERS                    || Estadísticas PvP y PvE
+HTML - TITLE_RECENT_KILLS                       || Asesinatos Recientes
+HTML - TITLE_RECENT_SESSIONS                    || Sesiones Recientes
+HTML - TITLE_SEEN_NICKNAMES                     || Alias Conocidos
 HTML - TITLE_SERVER                             || Servidor
-HTML - TITLE_SERVER_AS_NUMBERS                  || Servidor en números
-HTML - TITLE_SERVER_OVERVIEW                    || Vista general del servidor
-HTML - TITLE_SERVER_PLAYTIME                    || Jugabilidad en números
-HTML - TITLE_SERVER_PLAYTIME_30                 || Jugabilidad de 30 días
-HTML - TITLE_SESSION_START                      || Sesión iniciada
-HTML - TITLE_THEME_SELECT                       || Selección de tema
-HTML - TITLE_TITLE_PLAYER_PUNCHCARD             || Tarjeta
+HTML - TITLE_SERVER_AS_NUMBERS                  || Otros Datos
+HTML - TITLE_SERVER_OVERVIEW                    || Información Global
+HTML - TITLE_SERVER_PLAYTIME                    || Tiempo de Juego
+HTML - TITLE_SERVER_PLAYTIME_30                 || Tiempo de Jugado a 30 días
+HTML - TITLE_SESSION_START                      || Sesión
+HTML - TITLE_THEME_SELECT                       || Seleccionar Aspecto
+HTML - TITLE_TITLE_PLAYER_PUNCHCARD             || Impacto
 HTML - TITLE_TPS                                || TPS
 HTML - TITLE_TREND                              || Tendencia
-HTML - TITLE_TRENDS                             || Tendencias de 30 días
+HTML - TITLE_TRENDS                             || Tendencia a 30 días vista
 HTML - TITLE_VERSION                            || Versión
-HTML - TITLE_WEEK_COMPARISON                    || Comparación semanal
-HTML - TITLE_WORLD                              || Carga de mundo
-HTML - TITLE_WORLD_PLAYTIME                     || Jugabilidad de mundo
-HTML - TITLE_WORST_PING                         || Peor ping
-HTML - TOTAL_ACTIVE_TEXT                        || Activos totales
-HTML - TOTAL_AFK                                || AFK total
-HTML - TOTAL_PLAYERS                            || Jugadores totales
+HTML - TITLE_WEEK_COMPARISON                    || Comparativa Semanal
+HTML - TITLE_WORLD                              || Mundo
+HTML - TITLE_WORLD_PLAYTIME                     || Jugado en el Mundo
+HTML - TITLE_WORST_PING                         || Peor Ping
+HTML - TOTAL_ACTIVE_TEXT                        || Total Activo
+HTML - TOTAL_AFK                                || Total Ausente
+HTML - TOTAL_PLAYERS                            || Total Jugadores
 HTML - UNIQUE_CALENDAR                          || Únicos:
 HTML - UNIT_CHUNKS                              || Chunks
 HTML - UNIT_ENTITIES                            || Entidades
 HTML - UNIT_NO_DATA                             || Sin datos
 HTML - UNIT_THE_PLAYERS                         || Jugadores
-HTML - USER_AND_PASS_NOT_SPECIFIED              || Usuario y contraseña no especificados
+HTML - USER_AND_PASS_NOT_SPECIFIED              || No se ha especificado el usuario y la contraseña
 HTML - USER_DOES_NOT_EXIST                      || El usuario no existe
-HTML - USER_INFORMATION_NOT_FOUND               || Registration failed, try again (The code expires after 15 minutes)
-HTML - USER_PASS_MISMATCH                       || El usuario y la contraseña no coincide
-HTML - Version Change log                       || View Changelog
-HTML - Version Current                          || You have version ${0}
-HTML - Version Download                         || Download Plan-${0}.jar
-HTML - Version Update                           || Update
-HTML - Version Update Available                 || Version ${0} is Available!
-HTML - Version Update Dev                       || This version is a DEV release.
-HTML - Version Update Info                      || A new version has been released and is now available for download.
-HTML - WARNING_NO_GAME_SERVERS                  || Some data requires Plan to be installed on game servers.
-HTML - WARNING_NO_GEOLOCATIONS                  || Geolocation gathering needs to be enabled in the config (Accept GeoLite2 EULA).
-HTML - WARNING_NO_SPONGE_CHUNKS                 || Chunks unavailable on Sponge
+HTML - USER_INFORMATION_NOT_FOUND               || Fallo al registrar, inténtalo de nuevo (el código expira en 15 minutos).
+HTML - USER_PASS_MISMATCH                       || El usuario y la contraseña no coinciden
+HTML - Version Change log                       || Viendo lista de cambios
+HTML - Version Current                          || Usando la versión ${0}
+HTML - Version Download                         || Descarga Plan-${0}.jar
+HTML - Version Update                           || Actualizado
+HTML - Version Update Available                 || ¡Está disponible la versión ${0}!
+HTML - Version Update Dev                       || Esta versión se encuentra en desarrollo.
+HTML - Version Update Info                      || Hay disponible una versión nueva y ya se puede descargar.
+HTML - WARNING_NO_GAME_SERVERS                  || Algunos datos necesitan la instalación de Plan en los servidores.
+HTML - WARNING_NO_GEOLOCATIONS                  || Para obtener datos de geolocalización se debe activar la función en la configuración (Acepta el EULA de GeoLite2).
+HTML - WARNING_NO_SPONGE_CHUNKS                 || Los chunks no están disponibles en Sponge
 HTML - WITH                                     || <th>Con
-HTML ERRORS - ACCESS_DENIED_403                 || Acceso denegado
-HTML ERRORS - AUTH_FAIL_TIPS_401                || - Asegura que has registrado un usuario con <b>/plan register</b><br>- Comprueba que el usuario y la contraseña son correctos.<br>- Se pueden destinguir las minúsculas y mayúsculas del nick y la contraseña.<br><br>Si has olvidado tu contraseña, pídele a un miembro staff que borre la cuenta y te vuelves a registrar.
-HTML ERRORS - AUTHENTICATION_FAILED_401         || Autenticación fallada.
+HTML ERRORS - ACCESS_DENIED_403                 || Acceso Denegado
+HTML ERRORS - AUTH_FAIL_TIPS_401                || - Asegúrate de haber registrado un usuario con <b>/plan register</b><br>- Comprueba que el usuario y la contraseña sean correctos<br>- El usuario y la contraseña son sensible a mayúsculas<br><br>Si no recuerdas tu contraseña, habla con un miembro de la administración para que elimine tu usuario y puedas volver a registrarte.
+HTML ERRORS - AUTHENTICATION_FAILED_401         || Fallo de Autentificación.
 HTML ERRORS - FORBIDDEN_403                     || Prohibido
-HTML ERRORS - NO_SERVERS_404                    || Ningun servidor online donde dejar la solicitud.
-HTML ERRORS - NOT_FOUND_404                     || No encontrado
-HTML ERRORS - NOT_PLAYED_404                    || Ese jugador no ha jugado en este servidor.
-HTML ERRORS - PAGE_NOT_FOUND_404                || La pagina no existe.
+HTML ERRORS - NO_SERVERS_404                    || No hay servidores activos donde realizar la consulta.
+HTML ERRORS - NOT_FOUND_404                     || No Encontrado
+HTML ERRORS - NOT_PLAYED_404                    || Plan no ha visto a este jugador.
+HTML ERRORS - PAGE_NOT_FOUND_404                || La página no existe.
 HTML ERRORS - UNAUTHORIZED_401                  || No autorizado
-HTML ERRORS - UNKNOWN_PAGE_404                  || Asegurate que estas entrando por un link dado por un comando, Ejemplos:</p><p>/player/NombreJugador<br>/server/NombreServidor</p>
-HTML ERRORS - UUID_404                          || La UUID del jugador no ha sido encontrada.
-In Depth Help - /plan db                        || Use different database subcommands to change the data in some way
-In Depth Help - /plan db backup                 || Uses SQLite to backup the target database to a file.
-In Depth Help - /plan db clear                  || Clears all Plan tables, removing all Plan-data in the process.
-In Depth Help - /plan db hotswap                || Reloads the plugin with the other database and changes the config to match.
-In Depth Help - /plan db move                   || Overwrites contents in the other database with the contents in another.
-In Depth Help - /plan db remove                 || Removes all data linked to a player from the Current database.
-In Depth Help - /plan db restore                || Uses SQLite backup file and overwrites contents of the target database.
-In Depth Help - /plan db uninstalled            || Marks a server in Plan database as uninstalled so that it will not show up in server queries.
-In Depth Help - /plan disable                   || Disable the plugin or part of it until next reload/restart.
-In Depth Help - /plan export                    || Performs an export to export location defined in the config.
-In Depth Help - /plan import                    || Performs an import to load data into the database.
-In Depth Help - /plan info                      || Display the current status of the plugin.
-In Depth Help - /plan ingame                    || Proporciona información sobre un jugador en el juego.
-In Depth Help - /plan json                      || Allows you to download a player's data in json format. All of it.
-In Depth Help - /plan logout                    || Give username argument to log out another user from the panel, give * as argument to log out everyone.
-In Depth Help - /plan network                   || Obtain a link to the /network page, only does so on networks.
-In Depth Help - /plan player                    || Obtain a link to the /player page of a specific player, or the current player.
-In Depth Help - /plan players                   || Obtain a link to the /players page to see a list of players.
-In Depth Help - /plan register                  || Use without arguments to get link to register page. Use --code [code] after registration to get a user.
-In Depth Help - /plan reload                    || Disable and enable the plugin to reload any changes in config.
-In Depth Help - /plan search                    || List all matching player names to given part of a name.
-In Depth Help - /plan server                    || Obtain a link to the /server page of a specific server, or the current server if no arguments are given.
-In Depth Help - /plan servers                   || List ids, names and uuids of servers in the database.
-In Depth Help - /plan unregister                || Use without arguments to unregister player linked user, or with username argument to unregister another user.
-In Depth Help - /plan users                     || Lists web users as a table.
-Manage - Confirm Overwrite                      || ¡Los datos en ${0} serán sobrescritos!
-Manage - Confirm Removal                        || ¡Los datos en ${0} serán removidos!
-Manage - Fail                                   || > §cAlgo fue mal: ${0}
-Manage - Fail File not found                    || > §cNingún archivo encontrado en ${0}
-Manage - Fail Incorrect Database                || > §c'${0}' no es una base de datos permitida.
-Manage - Fail No Exporter                       || §eEl exportador '${0}' no existe
-Manage - Fail No Importer                       || §eEl importador '${0}' no existe
-Manage - Fail No Server                         || Ningún servidor encontrado con los parámetros dados.
-Manage - Fail Same Database                     || > §c¡No se puede operar desde y para la misma base de datos!
-Manage - Fail Same server                       || No se ha podido marcar el servidor como desinstalado (Estas en el)
+HTML ERRORS - UNKNOWN_PAGE_404                  || Asegúrate que estás accediendo a través de un enlace proporcionado por un comando. Ejemplos:</p><p>/player/PlayerName<br>/server/ServerName</p>
+HTML ERRORS - UUID_404                          || No se ha encontrado la UUID del jugador en la base de datos.
+In Depth Help - /plan db                        || §7Usa diferentes argumentos para interactuar con la base de datos.
+In Depth Help - /plan db backup                 || §7Utiliza SQLite para crear un archivo de recuperación de la base de datos.
+In Depth Help - /plan db clear                  || §7Vacía todas las tablas de la base de datos de Plan, eliminando en el proceso todos los datos.
+In Depth Help - /plan db hotswap                || §7Recarga el plugin usando otra base de datos y realiza los cambios oportunos.
+In Depth Help - /plan db move                   || §7Sustituye el contenido de una base de datos con los datos de otra.
+In Depth Help - /plan db remove                 || §7Elimina todos los datos del jugador de la base de datos actual.
+In Depth Help - /plan db restore                || §7Usa un archivo de respaldo para sustituir los datos de la base de datos actual.
+In Depth Help - /plan db uninstalled            || §7Marca un servidor como no instalado en la base de datos, para que no se muestre en las consultas del servidor.
+In Depth Help - /plan disable                   || §7Desactiva el plugin o parte de el hasta la próxima recarga o reinicio.
+In Depth Help - /plan export                    || §7Realiza un exportación de datos según se ha definido en la configuración.
+In Depth Help - /plan import                    || §7Realiza una importación de datos en el base de datos.
+In Depth Help - /plan info                      || §7Muestra información sobre el estado actual del plugin.
+In Depth Help - /plan ingame                    || §7Muestra en el juego información sobre el jugador.
+In Depth Help - /plan json                      || §7Permite descargar información sobre el jugador en formato json.
+In Depth Help - /plan logout                    || §7Introduce el nombre de usuario para cerrarle la sesión, o introduce * como argumento para cerrar la sesión de todos los usuarios.
+In Depth Help - /plan network                   || §7Obtén un enlace de la página de red BungeeCord si esta existe /network page.
+In Depth Help - /plan player                    || §7Obtén un enlace de la página del jugador actual o uno específico /player.
+In Depth Help - /plan players                   || §7Obtén un enlace de la página de la lista de jugadores /players.
+In Depth Help - /plan register                  || §7Úsalo sin argumentos para obtener el enlace de registro en la web. Usa --code [código] después del registro para obtener un usuario.
+In Depth Help - /plan reload                    || §7Desactiva y activa el plugin para recargar los cambios de la configuración y el archivo de idioma.
+In Depth Help - /plan search                    || §7Muestra una lista de todos los jugadores que coincidan con parte de un nombre.
+In Depth Help - /plan server                    || §7Obtén un enlace de la página del servidor o un servidor concreto si se especifica como argumento.
+In Depth Help - /plan servers                   || §7Muestra una lista con las ids, nombres y uuids de los servidores registrados en la base de datos.
+In Depth Help - /plan unregister                || §7Úsalo sin argumentos para eliminar el registro web o especifica el nombre de usuario como argumento para eliminar otro usuario web.
+In Depth Help - /plan users                     || §7Muestra la lista de usuarios web.
+Manage - Confirm Overwrite                      || ¡Se van a sobrescribir los datos ${0}!
+Manage - Confirm Removal                        || ¡Se van a eliminar los datos ${0}!
+Manage - Fail                                   || > §cAlgo no ha ido bien: ${0}
+Manage - Fail File not found                    || > §cNo se ha encontrado ningún archivo en ${0}
+Manage - Fail Incorrect Database                || > §c'${0}' no es una base de datos válida.
+Manage - Fail No Exporter                       || §eEl tipo de exportación '${0}' no existe
+Manage - Fail No Importer                       || §eEl tipo de importación '${0}' no existe
+Manage - Fail No Server                         || No se ha encontrado ningún servidor con los parámetros introducidos.
+Manage - Fail Same Database                     || > §c¡No se puede operar hacia y desde la misma base de datos!
+Manage - Fail Same server                       || No se puede marcar este servidor como desinstalado (estando en el)
 Manage - Fail, Confirmation                     || > §cAñade el argumento '-a' para confirmar la ejecución: ${0}
-Manage - List Importers                         || Importadores: 
-Manage - Progress                               || ${0} / ${1} processed..
-Manage - Remind HotSwap                         || §eRecuerda cambiarte a la nueva base de datos (/plan db hotswap ${0}) & recarga el plugin.
-Manage - Start                                  || > §2Procesando datos..
-Manage - Success                                || > §a¡Éxito!
+Manage - List Importers                         || Datos Importados: 
+Manage - Progress                               || Procesado ${0} de ${1}..
+Manage - Remind HotSwap                         || §eRecuerda cambiar a la nueva base de datos (/plan m hotswap ${0}) y recarga el plugin.
+Manage - Start                                  || §8| §2Procesando datos..
+Manage - Success                                || > §a¡Completado!
 Negative                                        || No
 Positive                                        || Si
 Today                                           || 'Hoy'
-Unavailable                                     || No disponible
+Unavailable                                     || No Disponible
 Unknown                                         || Desconocido
-Version - DEV                                   ||  Este es un lanzamiento para DEV.
-Version - Latest                                || Estas usando la version más reciente.
-Version - New                                   || Nuevo lanzamiento (${0}) disponible ${1}
-Version - New (old)                             || Nueva versión disponible en ${0}
-Version FAIL - Read info (old)                  || Error en comprobar el numero de la nueva versión.
-Version FAIL - Read versions.txt                || La información de la version no se ha podido cargar desde Github/versions.txt
-Web User Listing                                ||   §2${0} §7: §f${1}
-WebServer - Notify HTTP                         || Servidor web: No Certificado -> Usando HTTP-server para visualización.
-WebServer - Notify HTTP User Auth               || Servidor web: Autorizacion del usuario desactivada! (No seguro en HTTP)
-WebServer - Notify HTTPS User Auth              || Servidor web: Autorizacion del usuario desactivada! (Deshabilitada en la configuracion)
-Webserver - Notify IP Whitelist                 || Webserver: IP Whitelist is enabled.
-Webserver - Notify IP Whitelist Block           || Webserver: ${0} was denied access to '${1}'. (not whitelisted)
-WebServer - Notify no Cert file                 || Servidor web: Certificado de archivo KeyStore no encontrado: ${0}
-WebServer - Notify Using Proxy                  || Servidor web: Modo Proxy HTTPS habilitado, asegurate que tu reverse-proxy está usando HTTPS y los puntos del Proxy Plan AlternativeIP.Link
-WebServer FAIL - EOF                            || Servidor web: EOF leyendo el archivo de Certificado. (Comprueba que el archivo no está vacío)
-WebServer FAIL - Port Bind                      || El servidor web no se ha iniciado exitosamente. ¿Esta el puerto (${0}) en uso?
-WebServer FAIL - SSL Context                    || Servidor web: Inicialización de Contexto SSL erroneo.
-WebServer FAIL - Store Load                     || Servidor web: Carga del Certificado SSL erronea.
+Version - DEV                                   || Versión en desarrollo.
+Version - Latest                                || Es la versión más reciente.
+Version - New                                   || Se ha publicado una nueva versión (${0}) disponible en ${1}
+Version - New (old)                             || Hay una versión disponible en ${0}
+Version FAIL - Read info (old)                  || No se ha podido comprobar el nuevo número de versión.
+Version FAIL - Read versions.txt                || No se ha podido cargar la información sobre la versión desde Github/versions.txt
+Web User Listing                                ||   §2${0} §7: §7${1}
+WebServer - Notify HTTP                         || §6Servidor-Web ► Usando el protocolo HTTP sin Certificado.
+WebServer - Notify HTTP User Auth               || §f[Plan] §6Servidor-Web ► ¡Autorización de Usuario Desactivada! (La conexión HTTP no es segura).
+WebServer - Notify HTTPS User Auth              || [Plan] Servidor-Web ► ¡Autorización de Usuario Desactivada! (La función está desactivada en la configuración).
+Webserver - Notify IP Whitelist                 || [Plan] Servidor-Web ► La Lista Blanca de la IP está activada.
+Webserver - Notify IP Whitelist Block           || [Plan] Servidor-Web ► ${0} se ha rechazado el acceso a '${1}'. (La IP no se encuentra en la lista blanca).
+WebServer - Notify no Cert file                 || §cServidor-Web ► No se ha encontrado el Certificado en el archivo KeyStore (${0}).
+WebServer - Notify Using Proxy                  || [Plan] Servidor-Web ► HTTPS en modo proxy activado, asegúrate de que el proxy inverso esté enrutando usando HTTPS y Plan Alternative_IP. El enlace apunta al proxy.
+WebServer FAIL - EOF                            || [Plan] Servidor-Web ► Problema leyendo el archivo que contiene el Certificado. (Comprueba que el archivo no esté vacío).
+WebServer FAIL - Port Bind                      || [Plan] Servidor-Web ► Problema de inicialización. ¿El puerto (${0}) está siendo usado?
+WebServer FAIL - SSL Context                    || [Plan] Servidor-Web ► Fallo al inicializar el contexto SSL.
+WebServer FAIL - Store Load                     || [Plan] Servidor-Web ► Fallo al cargar el Certificado SSL.
 Yesterday                                       || 'Ayer'
